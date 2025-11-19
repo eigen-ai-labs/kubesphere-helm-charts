@@ -1,0 +1,24 @@
+apiVersion: v1
+entries:
+  ks-core:
+  - apiVersion: v2
+    appVersion: v4.1.3
+    created: "2025-11-19T19:34:45.260346+08:00"
+    dependencies:
+    - alias: redisHA
+      condition: redisHA.enabled
+      name: redis-ha
+      repository: ""
+      version: 4.26.1
+    - alias: ksCRDs
+      name: ks-crds
+      repository: ""
+      version: 1.0.0
+    description: A Helm chart for KubeSphere Core components
+    digest: 8a33730010d9f580fba767f12c4150d7ab3b6264d8092d10889109130dd05988
+    name: ks-core
+    type: application
+    urls:
+    - https://eigen-ai-labs.github.io/kubesphere-helm-charts/ks-core-1.1.5.tgz
+    version: 1.1.5
+generated: "2025-11-19T19:34:45.256599+08:00"
